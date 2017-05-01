@@ -1,0 +1,43 @@
+/* ----------------------------------------------------------------------------
+	Акцентный цвет
+---------------------------------------------------------------------------- */
+
+.button-blue {
+    background-color: #4aafef;
+}
+
+h1 > span:not(.nocolor), h2 > span:not(.nocolor), h3 > span:not(.nocolor), h4 > span:not(.nocolor), h5 > span:not(.nocolor), h6 > span:not(.nocolor) {
+    color: #4aafef;
+}
+
+.feature-box .fbox-icon i, .feature-box .fbox-icon img {
+    background-color: #4aafef;
+}
+
+.bgcolor, .bgcolor #header-wrap {
+    background-color: #4aafef !important;
+}
+
+.dark .feature-box h3 {
+    color: #EEE;
+}
+
+#gotoTop {
+    background-color: #4aafef;
+    background-color: rgba(74,175,239,0.3);
+}
+
+#gotoTop:hover { background-color: #4aafef; }
+
+/* ----------------------------------------------------------------------------
+	Переключатель языков
+---------------------------------------------------------------------------- */
+
+.lang-switcher {
+	border-left: 1px solid rgba(255,255,255,0.15) !important;
+	padding-left: 11px;
+}
+
+.lang-swither li a {
+    padding: 24px 12px;
+}
